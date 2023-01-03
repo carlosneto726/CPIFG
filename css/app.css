@@ -3,6 +3,9 @@ header, nav{
     width: 100%;
     position: fixed;
 }
+header ul.menu{
+    padding-left: 660px;
+}
 a.nav-link{
     color: white;
 }
@@ -12,7 +15,6 @@ a.nav-link:hover{
 }
 section.banner{
     padding-top: 70px;
-
 }
 
 article.container h1{
