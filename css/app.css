@@ -1,0 +1,43 @@
+header, nav{
+    background-image: linear-gradient(to right, rgb(166, 0, 178) , rgb(118, 0, 141));
+    width: 100%;
+    position: fixed;
+}
+a.nav-link{
+    color: white;
+}
+a.nav-link:hover{
+    color: white;
+    text-decoration: aliceblue;
+}
+section.banner{
+    padding-top: 70px;
+
+}
+
+article.container h1{
+    padding-top: 10%;
+}
+article.container h3{
+    padding-top: 7%;
+}
+
+article.container, primeiro{
+    padding-top: 50px;
+}
+article.container, segundo{
+    padding-bottom: 20px;
+}
+
+footer.container-fluid{
+    background-image: linear-gradient(to right, rgb(118, 0, 141), rgb(166, 0, 178));
+    color: white;
+}
+figure.logo{
+    padding-left: 371px;
+}
+ul.redes{
+    padding-left: 150px;
+}
+
+
