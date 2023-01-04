@@ -52,7 +52,22 @@ h2.perstexcinco{
     background-image: linear-gradient(to right, rgb(118, 201, 250) , rgb(235, 153, 252));
     color: #ffffff;
     box-shadow: 25px 15px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
     
+}
+h2.perstexcinco:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+ul li.nav-item{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+ul li.nav-item:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /*aqui é do Pedro*/
@@ -96,7 +111,14 @@ div.modificartamanho{
     background-image: linear-gradient(to right, rgb(252, 176, 235) , rgb(231, 70, 252));
     color: #ffffff;
     box-shadow: 50px 10px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
     
+    
+}
+.perstextdois:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .perstexttres{
     font-weight: bold;
@@ -105,7 +127,13 @@ div.modificartamanho{
     background-image: linear-gradient(to right, rgb(250, 188, 229) , rgb(156, 88, 245));
     color: #ffffff;
     box-shadow: 50px 10px rgb(71, 129, 216);
-    
+    transition: all 0.5s;
+    cursor: pointer;
+       
+}
+.perstexttres:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .perstextquatro{
     font-weight: bold;
@@ -114,7 +142,12 @@ div.modificartamanho{
     background-image: linear-gradient(to right, rgb(245, 212, 242) , rgb(159, 111, 247));
     color: #ffffff;
     box-shadow: 50px 10px rgb(71, 129, 216);
-    
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.perstextquatro:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 h1.moverparaolado{
     padding-left: 24%;
@@ -128,7 +161,13 @@ h1.perstexcinco{
     background-image: linear-gradient(to right, rgb(118, 201, 250) , rgb(235, 153, 252));
     color: #ffffff;
     box-shadow: 25px 15px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
     
+}
+h1.perstexcinco:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 figure.afastar{
     padding-left: 4%;
@@ -142,6 +181,12 @@ section.colocarcor{
     padding-right: 10px;
     color: #ffffff;
     box-shadow: 50px 10px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+section.colocarcor:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 article.endereco{
     padding-top:1%;
@@ -165,4 +210,13 @@ section.indicadordesenhos{
     padding-right: 10%;
     color: #ffffff;
     box-shadow: 50px 10px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+section.indicadordesenhos:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+section.movercarrosel{
+    padding-top: 30px;
 }
