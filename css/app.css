@@ -244,3 +244,12 @@ div.espacamentod:hover{
     transform: scale(1.1);
     margin-left: 2%;
 }
+p.redesd{
+    padding-left: 30%;
+    width: 10%;
+    float: left;
+}
+p.artistad{
+    padding-left: 10%;
+    float: left;
+}
