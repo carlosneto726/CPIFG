@@ -2,6 +2,8 @@ header, nav{
     background-image: linear-gradient(to right, rgb(166, 0, 178) , rgb(118, 0, 141));
     width: 100%;
     position: fixed;
+    /*coloquei isso daqui de baixo para deixar ela como camada principal*/
+    z-index: 9999;
 }
 header ul.menu{
     padding-left: 660px;
@@ -41,5 +43,126 @@ figure.logo{
 ul.redes{
     padding-left: 150px;
 }
+h2.perstexcinco{
+    font-weight: bold;
+    width: 45%;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 4%;
+    background-image: linear-gradient(to right, rgb(118, 201, 250) , rgb(235, 153, 252));
+    color: #ffffff;
+    box-shadow: 25px 15px rgb(71, 129, 216);
+    
+}
 
+/*aqui é do Pedro*/
+/*secoes fale conosco*/
+section.fale{
+    width: 80%;
+    padding-top: 100px;
+    padding-bottom: 2%;
+    padding-left: 20%;
 
+}
+div.cor{
+    background-image: linear-gradient(to right, rgb(255, 176, 248) , rgb(81, 126, 248));
+    box-shadow: 5px 4px rgb(124, 60, 167);
+}
+
+section.per{
+    width: 90%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+}
+div.perguntaf{
+    background-image: linear-gradient(to right, rgb(189, 206, 243) , rgb(250, 127, 240));
+    box-shadow: 15px 10px rgb(124, 60, 167);
+}
+.perstext{
+    font-weight: bold;
+    color: #001306;
+}
+
+/*Sobre*/
+div.modificartamanho{
+    background-image: url(../img/carrosel1.JPG);
+    height: 850px;
+    padding-top: 150px;
+}
+.perstextdois{
+    font-weight: bold;
+    width: 40%;
+    padding-left: 10%;
+    background-image: linear-gradient(to right, rgb(252, 176, 235) , rgb(231, 70, 252));
+    color: #ffffff;
+    box-shadow: 50px 10px rgb(71, 129, 216);
+    
+}
+.perstexttres{
+    font-weight: bold;
+    width: 70%;
+    padding-left: 10%;
+    background-image: linear-gradient(to right, rgb(250, 188, 229) , rgb(156, 88, 245));
+    color: #ffffff;
+    box-shadow: 50px 10px rgb(71, 129, 216);
+    
+}
+.perstextquatro{
+    font-weight: bold;
+    width: 95%;
+    padding-left: 10%;
+    background-image: linear-gradient(to right, rgb(245, 212, 242) , rgb(159, 111, 247));
+    color: #ffffff;
+    box-shadow: 50px 10px rgb(71, 129, 216);
+    
+}
+h1.moverparaolado{
+    padding-left: 24%;
+}
+
+h1.perstexcinco{
+    font-weight: bold;
+    width: 45%;
+    padding-right: 10%;
+    padding-left: 4%;
+    background-image: linear-gradient(to right, rgb(118, 201, 250) , rgb(235, 153, 252));
+    color: #ffffff;
+    box-shadow: 25px 15px rgb(71, 129, 216);
+    
+}
+figure.afastar{
+    padding-left: 4%;
+}
+section.colocarcor{
+    background-image: linear-gradient(to right, rgb(213, 59, 233) , rgb(107, 168, 238));
+    font-weight: bold;
+    width: 80%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    color: #ffffff;
+    box-shadow: 50px 10px rgb(71, 129, 216);
+}
+article.endereco{
+    padding-top:1%;
+    padding-left: 10%;
+    padding-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(186, 212, 219) , rgb(255, 251, 251));
+    font-weight: bold;
+}
+/*Desenhos*/
+section.desenhos{
+    padding-top: 4%;
+    width: 91%;
+    padding-left: 12%;
+}
+section.indicadordesenhos{
+    background-image: linear-gradient(to right, rgb(213, 59, 233) , rgb(107, 168, 238));
+    font-weight: bold;
+    width: 80%;
+    padding-top:5%;
+    padding-bottom: 20px;
+    padding-right: 10%;
+    color: #ffffff;
+    box-shadow: 50px 10px rgb(71, 129, 216);
+}
