@@ -29,6 +29,8 @@ header ul.menu{
     margin: 4px 10px;
     transition-duration: 0.4s;
     cursor: pointer;
+    /*Pedro: coloquei so uma borda mais arredondada*/
+    border-radius: 12px;
 }
 #botao:hover {
     background-color: white;
