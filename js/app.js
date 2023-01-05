@@ -22,6 +22,3 @@ function changeColorTheme(){
         css.href = "./css/app.css";
     } 
 }
-
-
-

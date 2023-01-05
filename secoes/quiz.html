@@ -19,7 +19,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
               <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="../index.html">INCIO</a></li>
-              <li class="nav-item"><a class="nav-link" href="quiz.html">QUIZ</a></li>
+              <li class="nav-item"><a class="nav-link text-black" href="quiz.html">QUIZ</a></li>
               <li class="nav-item"><a class="nav-link" href="desenhos.html">DESENHOS</a></li>
               <li class="nav-item"><a class="nav-link" href="sobre.html">SOBRE O EVENTO</a></li>
               <li class="nav-item"><a class="nav-link" href="fale_conosco.html">FALE CONOSCO</a></li>
@@ -29,6 +29,61 @@
         </div>
       </nav>
   </header>
+
+
+
+
+  <section class="section-container">
+    <form>
+      <ol>
+        <li>Quem comeu a Gomu Gomu no mi?</li>
+        <ol type="a">
+          <li><input type="radio" name="q1" value='a'/><label>Monkey D. Luffy</label></li>
+          <li><input type="radio" name="q1" value='b'/><label>Roronoa Zoro</label></li>
+          <li><input type="radio" name="q1" value='c'/><label>Dracule Mihawk</label></li>
+          <li><input type="radio" name="q1" value='d'/><label>Sanji Vinsmoke</label></li>
+          <li><input type="radio" name="q1" value='e'/><label>Tony Tony Chopper</label></li>
+        </ol>
+  
+        <li>Qual o nome do cavalo de fogo do anime Cavaleiro dos Zodiaco?</li>
+        <ol type="a">
+          <li><input type="radio" name="q2" value='a'/><label>Pegasus</label></li>
+          <li><input type="radio" name="q2" value='b'/><label>Pocotó</label></li>
+          <li><input type="radio" name="q2" value='c'/><label>Pé de Pano</label></li>
+          <li><input type="radio" name="q2" value='d'/><label>Mimosa</label></li>
+          <li><input type="radio" name="q2" value='e'/><label>Stanley</label></li>
+        </ol>
+  
+        <li>Quem é vilão no Naruto Clássico?</li>
+        <ol type="a">
+          <li><input type="radio" name="q3" value='a'/><label>Madara</label></li>
+          <li><input type="radio" name="q3" value='b'/><label>Sasuke</label></li>
+          <li><input type="radio" name="q3" value='c'/><label>Orochimaru</label></li>
+          <li><input type="radio" name="q3" value='d'/><label>Rock Lee</label></li>
+          <li><input type="radio" name="q3" value='e'/><label>Minato</label></li>
+        </ol>
+  
+        <li>Qual o nome do melhor amigo do Goku?</li>
+        <ol type="a">
+          <li><input type="radio" name="q4" value='a'/><label>Vegeta</label></li>
+          <li><input type="radio" name="q4" value='b'/><label>Bulma</label></li>
+          <li><input type="radio" name="q4" value='c'/><label>Kuririn</label></li>
+          <li><input type="radio" name="q4" value='d'/><label>Piccolo</label></li>
+          <li><input type="radio" name="q4" value='e'/><label>Trunks</label></li>
+        </ol>
+      </ol>
+
+      <h1 id="acertos">Voce acertou: </h1>
+      <h1 id="erros">Você errou: </h1>
+      
+    </form>
+    <button id="botao" onclick="quiz()" >Conferir respostas</button>
+  </section>
+
+  
+
+
+
 
 
     <footer class="container-fluid py-5 d-lg-block">

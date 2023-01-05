@@ -17,6 +17,23 @@ header, nav{
 header ul.menu{
     padding-left: 40%;
 }
+#botao {
+    background-color: #555555;
+    color: white;
+    border: 2px solid #ffffff;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#botao:hover {
+    background-color: white;
+    color: black;
+}
 a.nav-link{
     color: white;
 }
@@ -29,10 +46,11 @@ section.banner{
 }
 
 article.container h1{
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 article.container h3{
-    padding-top: 7%;
+    padding-top: 5%;
 }
 
 article.container, primeiro{
@@ -43,7 +61,7 @@ article.container, segundo{
 }
 
 footer.container-fluid{
-    background-image: linear-gradient(to right, #009dff, #0068a8);
+    background-image: linear-gradient(to right, #76C8FA, #009dff);
     color: white;
 }
 figure.logo{
@@ -52,19 +70,18 @@ figure.logo{
 ul.redes{
     padding-left: 150px;
 }
-h2.perstexcinco{
+.perstexcinco{
     font-weight: bold;
     width: 50%;
     padding-top: 5%;
-    padding-left: 10%;
     background-image: linear-gradient(to right, rgb(118, 201, 250) , rgb(235, 153, 252));
     color: #ffffff;
     box-shadow: 25px 15px rgb(71, 129, 216);
     transition: all 0.5s;
     cursor: pointer;
-    
+    align-items: center;
 }
-h2.perstexcinco:hover{
+.perstexcinco:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
@@ -218,20 +235,26 @@ article.endereco{
 /*Desenhos*/
 section.desenhos{
     padding-top: 4%;
+    padding-bottom: 4%;
     width: 91%;
     padding-left: 12%;
+
 }
 section.indicadordesenhos{
     background-image: linear-gradient(to right, rgb(213, 59, 233) , rgb(107, 168, 238));
     font-weight: bold;
     width: 80%;
-    padding-top:5%;
-    padding-bottom: 20px;
+    padding-top: 7%;
+    padding-bottom: 7%;
     padding-right: 10%;
+    padding-left: 10%;
+    margin-left: 10%;
+    margin-top: 3%;
     color: #ffffff;
     box-shadow: 50px 10px rgb(71, 129, 216);
     transition: all 0.5s;
     cursor: pointer;
+  
 }
 section.indicadordesenhos:hover{
     -webkit-transform: scale(1.1);
@@ -246,10 +269,27 @@ section.desenhos{
 div.espacamentod{
     transition: all 0.5s;
     cursor: pointer;
-
+    background-color: #171a1f;
+    color: #ffffff;
 }
 div.espacamentod:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     margin-left: 2%;
+}
+p.redesd{
+    padding-left: 30%;
+    float: left;
+    fill: rgb(255, 255, 255);
+
+    /*Por aulgum motivo, no modo escuro, o icone do instagra só fica branco em janela anonima*/
+}
+p.redesd a{
+    text-decoration: none;
+    color: white;
+
+}
+p.artistad{
+    padding-left: 5%;
+    float: left;
 }
