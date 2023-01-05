@@ -244,10 +244,22 @@ section.desenhos{
 div.espacamentod{
     transition: all 0.5s;
     cursor: pointer;
+    /* PRA DEIXAR COM O FUNDO PRETO OS CARDS COM AS IMAGENS DOS DESENHOS 
+    background-color: black;
+    color: #ffffff;
+    */
 
 }
 div.espacamentod:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     margin-left: 2%;
+}
+p.redesd{
+    padding-left: 30%;
+    float: left;
+}
+p.artistad{
+    padding-left: 5%;
+    float: left;
 }
