@@ -280,13 +280,17 @@ div.espacamentod:hover{
 p.redesd{
     padding-left: 30%;
     float: left;
-    fill: rgb(255, 255, 255);
 
     /*Por aulgum motivo, no modo escuro, o icone do instagra só fica branco em janela anonima*/
+    
+    /*
+    comentario pedro
+    arrumei aqui meu bom, a class nav-link estava interferindo nessa troca, so tirei ela
+    */
 }
 p.redesd a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 
 }
 p.artistad{
