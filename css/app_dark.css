@@ -4,9 +4,11 @@
     border: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #282C34;
+}
 header, nav{
-    background-image: linear-gradient(to right, #EA99FC , #d000ff);
+    background-image: linear-gradient(to right,  #d000ff , #9300b4);
     width: 100%;
     position: fixed;
     /*coloquei isso daqui de baixo para deixar ela como camada principal*/
@@ -41,7 +43,7 @@ article.container, segundo{
 }
 
 footer.container-fluid{
-    background-image: linear-gradient(to right, #76C8FA, #009dff);
+    background-image: linear-gradient(to right, #009dff, #0068a8);
     color: white;
 }
 figure.logo{

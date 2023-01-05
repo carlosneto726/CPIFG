@@ -6,33 +6,29 @@
     <title>CPIFG</title>
     <link rel="icon" type="img/png" sizes="32x32" href="../img/cpifg_logo2.png">
     <link rel='stylesheet' type='text/css' href='../css/bootstrap.css'>
-    <link rel='stylesheet' type='text/css' href='../css/app.css'>
-    <script src='../js/bootstrap.js'></script>
+    <link id="appcss" rel='stylesheet' type='text/css' href='../css/app.css'>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="#"><Img src="../img/logo.png" height="60%" width="60%"></Img></a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
-                  <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="../index.html">INCIO</a></li>
-                  <li class="nav-item"><a class="nav-link" href="quiz.html">QUIZ</a></li>
-                  <li class="nav-item"><a class="nav-link" href="desenhos.html">DESENHOS</a></li>
-                  <li class="nav-item"><a class="nav-link" href="sobre.html">SOBRE O EVENTO</a></li>
-                  <li class="nav-item"><a class="nav-link" href="fale_conosco.html">FALE CONOSCO</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-
-
-
+  <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><Img src="../img/logo.png" height="60%" width="60%"></Img></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
+              <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="../index.html">INCIO</a></li>
+              <li class="nav-item"><a class="nav-link" href="quiz.html">QUIZ</a></li>
+              <li class="nav-item"><a class="nav-link" href="desenhos.html">DESENHOS</a></li>
+              <li class="nav-item"><a class="nav-link" href="sobre.html">SOBRE O EVENTO</a></li>
+              <li class="nav-item"><a class="nav-link" href="fale_conosco.html">FALE CONOSCO</a></li>
+              <li class="nav-item"><button id="botao" onclick="changeColorTheme()">Dark</button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
 
 
     <footer class="container-fluid py-5 d-lg-block">
@@ -50,6 +46,7 @@
         </ul>
       </div>
     </footer>
-    
+    <script src='../js/bootstrap.js'></script>
+    <script src="../js/app_section.js"></script>
 </body>
 </html>

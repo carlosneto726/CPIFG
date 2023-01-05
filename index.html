@@ -6,8 +6,7 @@
     <title>CPIFG</title>
     <link rel="icon" type="img/png" sizes="32x32" href="img/cpifg_logo2.png">
     <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
-    <link rel='stylesheet' type='text/css' href='css/app.css'>
-    <script src='js/bootstrap.js'></script>
+    <link id="appcss" rel='stylesheet' type='text/css' href='css/app.css'>
 </head>
 <body>
     <header>
@@ -24,12 +23,12 @@
                   <li class="nav-item"><a class="nav-link" href="secoes/desenhos.html">DESENHOS</a></li>
                   <li class="nav-item"><a class="nav-link" href="secoes/sobre.html">SOBRE O EVENTO</a></li>
                   <li class="nav-item"><a class="nav-link" href="secoes/fale_conosco.html">FALE CONOSCO</a></li>
+                  <li class="nav-item"><button id="botao" onclick="changeColorTheme(this)">Dark</button></li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-<!--  -->
     <section class="banner row row-col-sm-1">
       <img src="img/banner.png" width="100%" height="100%">
     </section>
@@ -68,5 +67,8 @@
         </ul>
       </div>
     </footer>
+
+    <script src='js/bootstrap.js'></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
