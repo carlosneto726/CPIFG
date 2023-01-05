@@ -30,60 +30,161 @@
       </nav>
   </header>
 
-
-
-
   <section class="section-container">
-    <form>
-      <ol>
-        <li>Quem comeu a Gomu Gomu no mi?</li>
-        <ol type="a">
-          <li><input type="radio" name="q1" value='a'/><label>Monkey D. Luffy</label></li>
-          <li><input type="radio" name="q1" value='b'/><label>Roronoa Zoro</label></li>
-          <li><input type="radio" name="q1" value='c'/><label>Dracule Mihawk</label></li>
-          <li><input type="radio" name="q1" value='d'/><label>Sanji Vinsmoke</label></li>
-          <li><input type="radio" name="q1" value='e'/><label>Tony Tony Chopper</label></li>
-        </ol>
-  
-        <li>Qual o nome do cavalo de fogo do anime Cavaleiro dos Zodiaco?</li>
-        <ol type="a">
-          <li><input type="radio" name="q2" value='a'/><label>Pegasus</label></li>
-          <li><input type="radio" name="q2" value='b'/><label>Pocotó</label></li>
-          <li><input type="radio" name="q2" value='c'/><label>Pé de Pano</label></li>
-          <li><input type="radio" name="q2" value='d'/><label>Mimosa</label></li>
-          <li><input type="radio" name="q2" value='e'/><label>Stanley</label></li>
-        </ol>
-  
-        <li>Quem é vilão no Naruto Clássico?</li>
-        <ol type="a">
-          <li><input type="radio" name="q3" value='a'/><label>Madara</label></li>
-          <li><input type="radio" name="q3" value='b'/><label>Sasuke</label></li>
-          <li><input type="radio" name="q3" value='c'/><label>Orochimaru</label></li>
-          <li><input type="radio" name="q3" value='d'/><label>Rock Lee</label></li>
-          <li><input type="radio" name="q3" value='e'/><label>Minato</label></li>
-        </ol>
-  
-        <li>Qual o nome do melhor amigo do Goku?</li>
-        <ol type="a">
-          <li><input type="radio" name="q4" value='a'/><label>Vegeta</label></li>
-          <li><input type="radio" name="q4" value='b'/><label>Bulma</label></li>
-          <li><input type="radio" name="q4" value='c'/><label>Kuririn</label></li>
-          <li><input type="radio" name="q4" value='d'/><label>Piccolo</label></li>
-          <li><input type="radio" name="q4" value='e'/><label>Trunks</label></li>
-        </ol>
-      </ol>
-
-      <h1 id="acertos">Voce acertou: </h1>
-      <h1 id="erros">Você errou: </h1>
-      
-    </form>
-    <button id="botao" onclick="quiz()" >Conferir respostas</button>
+    <div class="quizBanner">
+      <h1 class="moverparaolado row row-cols-lg-2 row-cols-sm-1">Teste os seu conhecimentos sobre animes!</h1>
+    </div>
+    <ol class="lista-perguntas">
+        <li class="pergunta">
+            <h3> Qual o nome desse anime? </h3>
+            <div class="img-wrapper">
+                <img src="../img/quiz/op.jpg" alt="">
+            </div>
+            <ol class="respostas" type="A">
+                <li>
+                    <input type="radio" name="pergunta1" id="resposta1">
+                    <label for="resposta1"> Naruto </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta1" id="resposta2">
+                    <label for="resposta2"> Dragon Ball </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta1" id="resposta3">
+                    <label for="resposta3"> One Piece </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta1" id="resposta4">
+                    <label for="resposta4"> Demon Slayer </label>
+                </li>
+            </ol>
+            <div class="resultado">
+                <p class="resposta-correta" id="resposta-correta1"> Resposta correta! </p>
+                <p class="resposta-errada" id="resposta-errada1"> Resposta errada! </p>
+            </div>
+        </li>
+        <li class="pergunta">
+            <h3> São necessarias quantas esferas do dragão para invocar o Shenlong? </h3>
+            <div class="img-wrapper">
+                <img src="../img/quiz/db.jpg" alt="">
+            </div>
+            <ol class="respostas" type="A">
+                <li>
+                    <input type="radio" name="pergunta2" id="resposta1">
+                    <label for="resposta1"> 10 </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta2" id="resposta2">
+                    <label for="resposta2"> 7 </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta2" id="resposta3">
+                    <label for="resposta3"> 3 </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta2" id="resposta4">
+                    <label for="resposta4"> 6 </label>
+                </li>
+            </ol>
+            <div class="resultado">
+                <p class="resposta-correta" id="resposta-correta2"> Resposta correta! </p>
+                <p class="resposta-errada" id="resposta-errada2"> Resposta errada! </p>
+            </div>
+        </li>
+        <li class="pergunta">
+            <h3> O que Itahci fez para que Sasuke deseje vingança de seu irmão?</h3>
+            <div class="img-wrapper">
+                <img src="../img/quiz/itachi.jpg" alt="">
+            </div>
+            <ol class="respostas" type="A">
+                <li>
+                    <input type="radio" name="pergunta3" id="resposta1">
+                    <label for="resposta1"> Eliminou todo o clã Uchiha e seus pais na sua frente </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta3" id="resposta2">
+                    <label for="resposta2"> Eliminou seu sensei </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta3" id="resposta3">
+                    <label for="resposta3"> Se voltou contra seu próprio clã por um amor proibido </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta3" id="resposta4">
+                    <label for="resposta4"> N.D.A </label>
+                </li>
+            </ol>
+            <div class="resultado">
+                <p class="resposta-correta" id="resposta-correta3"> Resposta correta! </p>
+                <p class="resposta-errada" id="resposta-errada3"> Resposta errada! </p>
+            </div>
+        </li>
+        <li class="pergunta">
+            <h3> Qual o nome do par romântico do Naruto? </h3>
+            <div class="img-wrapper">
+                <img src="../img/quiz/naruto.jpg" alt="">
+            </div>
+            <ol class="respostas" type="A">
+                <li>
+                    <input type="radio" name="pergunta4" id="resposta1">
+                    <label for="resposta1"> Sakura </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta4" id="resposta2">
+                    <label for="resposta2"> Kaguia </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta4" id="resposta3">
+                    <label for="resposta3"> Ten Ten </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta4" id="resposta4">
+                    <label for="resposta4"> Hinata </label>
+                </li>
+            </ol>
+            <div class="resultado">
+                <p class="resposta-correta" id="resposta-correta4"> Resposta correta! </p>
+                <p class="resposta-errada" id="resposta-errada4"> Resposta errada! </p>
+            </div>
+        </li>
+        <li class="pergunta">
+            <h3> Como Luffy consegui o poder de se esticar? </h3>
+            <div class="img-wrapper">
+                <img src="../img/quiz/luffy.jpeg" alt="">
+            </div>
+            <ol class="respostas" type="A">
+                <li>
+                    <input type="radio" name="pergunta5" id="resposta1">
+                    <label for="resposta1"> Comendo a Gomu Gomu no Mi </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta5" id="resposta2">
+                    <label for="resposta2"> Se transformando o rei dos piratas </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta5" id="resposta3">
+                    <label for="resposta3"> Achando o tesouro One Piece </label>
+                </li>
+                <li>
+                    <input type="radio" name="pergunta5" id="resposta4">
+                    <label for="resposta4"> Derrotando Arlong </label>
+                </li>
+            </ol>
+            <div class="resultado">
+                <p class="resposta-correta" id="resposta-correta5"> Resposta correta! </p>
+                <p class="resposta-errada" id="resposta-errada5"> Resposta errada! </p>
+            </div>
+        </li>
+    </ol>
+    <div class="buttons">
+        <button onclick="enviarRespostas()"> Terminar Quiz </button>
+    </div>
+    <span id="error"> Responda a todas as perguntas </span>
+    <div id="resultadoFinal">
+        <p id="dadosDoResultadoFinal"></p>
+        <p><i id="textoDoResultadoFinal"></i></p>
+    </div>
   </section>
-
-  
-
-
-
 
 
     <footer class="container-fluid py-5 d-lg-block">
