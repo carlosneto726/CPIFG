@@ -1,3 +1,4 @@
+// Implementando o Dark/Light Theme
 const btn = document.getElementById("botao");
 const css = document.getElementById("appcss");
 const theme = window.localStorage.getItem("theme");
@@ -8,7 +9,6 @@ if (theme === "Dark"){
 }else{
     css.href = "./css/app.css";
 }
-
 
 function changeColorTheme(){
     if(btn.innerHTML === "Dark"){

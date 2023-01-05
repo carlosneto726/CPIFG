@@ -1,3 +1,4 @@
+/*Zerando configurações padrões*/
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +8,12 @@
 
 
 
+
+/*Navbar*/
 header, nav{
     background-image: linear-gradient(to right, #EA99FC , #d000ff);
     width: 100%;
     position: fixed;
-    /*coloquei isso daqui de baixo para deixar ela como camada principal*/
     z-index: 9999;
 }
 header ul.menu{
@@ -43,25 +45,8 @@ a.nav-link:hover{
     color: white;
     text-decoration: aliceblue;
 }
-section.banner{
-    padding-top: 70px;
-}
 
-article.container h1{
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-article.container h3{
-    padding-top: 5%;
-}
-
-article.container, primeiro{
-    padding-top: 50px;
-}
-article.container, segundo{
-    padding-bottom: 20px;
-}
-
+/*Rodapé*/
 footer.container-fluid{
     background-image: linear-gradient(to right, #76C8FA, #009dff);
     color: white;
@@ -72,22 +57,6 @@ figure.logo{
 ul.redes{
     padding-left: 150px;
 }
-.perstexcinco{
-    font-weight: bold;
-    width: 50%;
-    padding-top: 5%;
-    background-image: linear-gradient(to right, rgb(118, 201, 250) , rgb(235, 153, 252));
-    color: #ffffff;
-    box-shadow: 25px 15px rgb(71, 129, 216);
-    transition: all 0.5s;
-    cursor: pointer;
-    align-items: center;
-}
-.perstexcinco:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
 ul li.nav-item{
     transition: all 0.5s;
     cursor: pointer;
@@ -106,8 +75,40 @@ figure.logo{
     padding-left: 10%;
 }
 
-/*QUIZ*/
+/*Index*/
+section.banner{
+    padding-top: 70px;
+}
+article.container h1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+article.container h3{
+    padding-top: 5%;
+}
+article.container, primeiro{
+    padding-top: 50px;
+}
+article.container, segundo{
+    padding-bottom: 20px;
+}
+.perstexcinco{
+    font-weight: bold;
+    width: 50%;
+    padding-top: 5%;
+    background-image: linear-gradient(to right, rgb(118, 201, 250) , rgb(235, 153, 252));
+    color: #ffffff;
+    box-shadow: 25px 15px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+}
+.perstexcinco:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
+/*Quiz*/
 section.section-container div.quizBanner{
     font-weight: bold;
     width: 100%;
@@ -121,7 +122,6 @@ section.section-container div.quizBanner:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
 .section-container {
     width: 50%;
     display: flex;
@@ -131,23 +131,19 @@ section.section-container div.quizBanner:hover{
     margin-left: 25%;
     margin-bottom: 40px;
 }
-
 .section-container h2 {
     color: white;
     margin-bottom: 40px;
     font-size: 3rem;
     border-bottom: 2px solid #D61C4E;
 }
-
 .lista-perguntas {
     width: 100%;
     height: max-content;
 }
-
 .pergunta {
     margin-top: 50px;
 }
-
 .img-wrapper {
     width: 100%;
     height: 100%;
@@ -159,15 +155,12 @@ section.section-container div.quizBanner:hover{
     height: 100%;
     object-fit: cover;
 }
-
 .respostas {
     margin-top: 15px;
 }
-
 .respostas li {
     margin-top: 5px;
 }
-
 .resultado {
     width: 100%;
     height: 40px;
@@ -176,17 +169,14 @@ section.section-container div.quizBanner:hover{
     align-items: flex-end;
     opacity: 0;
 }
-
 .resposta-correta {
     color: green;
     display: none;
 }
-
 .resposta-errada {
     color: red;
     display: none;
 }
-
 button {
     background-color: #901636;
     padding: 15px 30px;
@@ -199,18 +189,15 @@ button {
     transition: 400ms;
     text-transform: uppercase;
 }
-
 .buttons {
     display: flex;
     justify-content: center;
     gap: 10px;
     width: 100%;
 }
-
 button:hover {
     background-color: #D61C4E;
 }
-
 #resultadoFinal {
     width: 100%;
     height: 200px;
@@ -225,20 +212,16 @@ button:hover {
     text-align: center;
     padding: 0 20px;
 }
-
 #resultadoFinal p {
     font-size: 1.5rem;
 }
-
 #resultadoFinal p strong {
     color: #D61C4E;
 }
-
 #resultadoFinal i {
     font-size: 1rem;
     color: rgb(102, 100, 100);
 }
-
 #error {
     width: 100%;
     height: 40px;
@@ -249,134 +232,7 @@ button:hover {
     display: none;
 }
 
-/*aqui é do Pedro*/
-/*secoes fale conosco*/
-section.fale{
-    width: 90%;
-    padding-top: 100px;
-    padding-bottom: 2%;
-    padding-left: 10%;
 
-}
-div.cor{
-    background-image: linear-gradient(to right, rgb(255, 176, 248) , rgb(81, 126, 248));
-    box-shadow: 5px 4px rgb(124, 60, 167);
-}
-
-section.per{
-    width: 90%;
-    padding-bottom: 3%;
-    padding-left: 10%;
-}
-div.perguntaf{
-    background-image: linear-gradient(to right, rgb(189, 206, 243) , rgb(250, 127, 240));
-    box-shadow: 15px 10px rgb(124, 60, 167);
-}
-.perstext{
-    font-weight: bold;
-    color: #001306;
-}
-ul.tirarbolinha li{
-    list-style-type: none
-}
-
-/*Sobre*/
-div.modificartamanho{
-    background-image: url(../img/carrosel1.JPG);
-    height: 850px;
-    padding-top: 150px;
-}
-.perstextdois{
-    font-weight: bold;
-    width: 40%;
-    padding-left: 10%;
-    background-image: linear-gradient(to right, rgb(252, 176, 235) , rgb(231, 70, 252));
-    color: #ffffff;
-    box-shadow: 50px 10px rgb(71, 129, 216);
-    transition: all 0.5s;
-    cursor: pointer;
-    
-    
-}
-.perstextdois:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.perstexttres{
-    font-weight: bold;
-    width: 70%;
-    padding-left: 10%;
-    background-image: linear-gradient(to right, rgb(250, 188, 229) , rgb(156, 88, 245));
-    color: #ffffff;
-    box-shadow: 50px 10px rgb(71, 129, 216);
-    transition: all 0.5s;
-    cursor: pointer;
-       
-}
-.perstexttres:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.perstextquatro{
-    font-weight: bold;
-    width: 95%;
-    padding-left: 10%;
-    background-image: linear-gradient(to right, rgb(245, 212, 242) , rgb(159, 111, 247));
-    color: #ffffff;
-    box-shadow: 50px 10px rgb(71, 129, 216);
-    transition: all 0.5s;
-    cursor: pointer;
-}
-.perstextquatro:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-h1.moverparaolado{
-    padding-left: 24%;
-}
-
-h1.perstexcinco{
-    font-weight: bold;
-    width: 50%;
-    padding-left: 10%;
-    padding-bottom: 4%;
-    background-image: linear-gradient(to right, rgb(118, 201, 250) , rgb(235, 153, 252));
-    color: #ffffff;
-    box-shadow: 25px 15px rgb(71, 129, 216);
-    transition: all 0.5s;
-    cursor: pointer;
-    
-}
-h1.perstexcinco:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-figure.afastar{
-    padding-left: 4%;
-}
-section.colocarcor{
-    background-image: linear-gradient(to right, rgb(213, 59, 233) , rgb(107, 168, 238));
-    font-weight: bold;
-    width: 80%;
-    padding-top:20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    color: #ffffff;
-    box-shadow: 50px 10px rgb(71, 129, 216);
-    transition: all 0.5s;
-    cursor: pointer;
-}
-section.colocarcor:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-article.endereco{
-    padding-top:1%;
-    padding-left: 10%;
-    padding-bottom: 2px;
-    background-image: linear-gradient(to right, rgb(186, 212, 219) , rgb(255, 251, 251));
-    font-weight: bold;
-}
 /*Desenhos*/
 section.desenhos{
     padding-top: 4%;
@@ -433,4 +289,126 @@ p.redesd a{
 p.artistad{
     padding-left: 5%;
     float: left;
+}
+
+/*Sobre o  Evento*/
+div.modificartamanho{
+    background-image: url(../img/carrosel1.JPG);
+    height: 850px;
+    padding-top: 150px;
+}
+.perstextdois{
+    font-weight: bold;
+    width: 40%;
+    padding-left: 10%;
+    background-image: linear-gradient(to right, rgb(252, 176, 235) , rgb(231, 70, 252));
+    color: #ffffff;
+    box-shadow: 50px 10px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.perstextdois:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.perstexttres{
+    font-weight: bold;
+    width: 70%;
+    padding-left: 10%;
+    background-image: linear-gradient(to right, rgb(250, 188, 229) , rgb(156, 88, 245));
+    color: #ffffff;
+    box-shadow: 50px 10px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
+       
+}
+.perstexttres:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.perstextquatro{
+    font-weight: bold;
+    width: 95%;
+    padding-left: 10%;
+    background-image: linear-gradient(to right, rgb(245, 212, 242) , rgb(159, 111, 247));
+    color: #ffffff;
+    box-shadow: 50px 10px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.perstextquatro:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+h1.moverparaolado{
+    padding-left: 24%;
+}
+h1.perstexcinco{
+    font-weight: bold;
+    width: 50%;
+    padding-left: 10%;
+    padding-bottom: 4%;
+    background-image: linear-gradient(to right, rgb(118, 201, 250) , rgb(235, 153, 252));
+    color: #ffffff;
+    box-shadow: 25px 15px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+h1.perstexcinco:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+figure.afastar{
+    padding-left: 4%;
+}
+section.colocarcor{
+    background-image: linear-gradient(to right, rgb(213, 59, 233) , rgb(107, 168, 238));
+    font-weight: bold;
+    width: 80%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    color: #ffffff;
+    box-shadow: 50px 10px rgb(71, 129, 216);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+section.colocarcor:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+article.endereco{
+    padding-top:1%;
+    padding-left: 10%;
+    padding-bottom: 2px;
+    background-image: linear-gradient(to right, rgb(186, 212, 219) , rgb(255, 251, 251));
+    font-weight: bold;
+}
+
+/*Fale Conosco*/
+section.fale{
+    width: 90%;
+    padding-top: 100px;
+    padding-bottom: 2%;
+    padding-left: 10%;
+}
+div.cor{
+    background-image: linear-gradient(to right, rgb(255, 176, 248) , rgb(81, 126, 248));
+    box-shadow: 5px 4px rgb(124, 60, 167);
+}
+section.per{
+    width: 90%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+}
+div.perguntaf{
+    background-image: linear-gradient(to right, rgb(189, 206, 243) , rgb(250, 127, 240));
+    box-shadow: 15px 10px rgb(124, 60, 167);
+}
+.perstext{
+    font-weight: bold;
+    color: #001306;
+}
+ul.tirarbolinha li{
+    list-style-type: none
 }
