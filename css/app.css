@@ -195,9 +195,6 @@ button {
     gap: 10px;
     width: 100%;
 }
-button:hover {
-    background-color: #D61C4E;
-}
 #resultadoFinal {
     width: 100%;
     height: 200px;
