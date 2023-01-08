@@ -24,6 +24,11 @@ function changeColorTheme(){
 }
 
 
+function validarFormulario(){
+
+    alert("Mensagem Enviada.");
+}
+
 // Quiz
 const listaDeResultados = [false, false, false, false, false, false, false, false, false, false];
 
