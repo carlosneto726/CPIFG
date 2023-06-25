@@ -1,4 +1,5 @@
-[Convenção POP IFG](https://carlosneto726.github.io/CPIFG.github.io/index.html)
+# Convenção POP IFG
+Acesse o projeto nesse [Link](https://cpifg.vercel.app/)
 ================================
 
 ![](img/repository-open-template.png)
